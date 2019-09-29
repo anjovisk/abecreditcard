@@ -2,7 +2,7 @@
 API para aprovação de transações no cartão de crédito.
 
 > ### Desenho da API v1
-> ##### Auditoria
+> ##### Autorizar pagamento com cartão de crédito
 > - (POST) /v1/public/payment/authorizations
 
 > ### Testes
