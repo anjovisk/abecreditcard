@@ -1,2 +1,5 @@
+spring:
+  application:
+    name: abecreditcard
 server:
   port: 8083
