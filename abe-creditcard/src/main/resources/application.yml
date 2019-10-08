@@ -1,5 +1,6 @@
 spring:
   application:
     name: abecreditcard
+  profiles:    active: aws
 server:
   port: 8083
