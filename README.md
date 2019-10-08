@@ -5,6 +5,10 @@ API para aprovação de transações no cartão de crédito.
 > ##### Autorizar pagamento com cartão de crédito
 > - (POST) /v1/public/payment/authorizations
 
+> ### API de Auditoria
+> - A auditoria pode ser utilizada de duas formas diferentes, através de um microsserviço (https://github.com/anjovisk/abeaudit) ou através de uma nanosserviço (https://github.com/anjovisk/abeaudit-aws-lambda). Para este, deve-se ativar o perfil "aws" (application.yml).
+> - Caso queira utilizar o nanosserviço, é necessário publicá-lo na aws e criar o arquivo credentials (~/.aws/credentials).
+
 > ### Testes
 > - Coleção de testes da API no postman: https://www.getpostman.com/collections/8cac695256e8c13acb3f
 
